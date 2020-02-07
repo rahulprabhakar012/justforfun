@@ -175,8 +175,7 @@ vector<int> merge_sort(vector<int> a, const int low, const int high)     // Recu
 }  
  
  int main(){
- 	 clock_t start, end; 
- 	 start = clock(); 
+ 	 
  	vector<int> a;
  	long int n;
  	int t;
@@ -189,6 +188,8 @@ vector<int> merge_sort(vector<int> a, const int low, const int high)     // Recu
  	for(int j=0;j<a.size();j++)
 	 cout<<a[j]<<" ";
 	 cout<<"\nsort"<<endl;
+	 clock_t start, end; 
+ 	 start = clock(); 
 	// bubble(a);	
 	sel(a);
 	 //ins(a);
